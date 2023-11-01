@@ -1,0 +1,195 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Monteserrat;
+   
+    
+}
+
+#navbar
+{
+    width: 100%;
+    height: 70px;
+    background-color:#0F1111;
+    box-shadow: 0px 2px 5px grey ;
+    position: fixed;
+    top: 0;
+    left:0;
+   display: flex;
+   justify-content: center;
+
+}
+
+#amazonLogo{
+
+    height: 100%;
+    width:100%;
+   
+}
+
+#image_wrapper{
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+#main{
+    height: 400px;
+    width: 400px;
+    /* background-color: lightblue; */
+    display: inline-block;
+    
+}
+
+#smartwatch-img{
+    width: 100%;
+    height: 100%;
+}
+
+#section{
+    height: 500px;
+    width: 700px;
+    padding-right: 20px;
+    /* background-color: aquamarine; */
+
+    
+    display: inline-block;
+    transform: translateX(-150px);
+}
+
+#mainSection{
+    margin-top: 70px;
+    height:80%;
+    display: flex;
+    justify-content: space-around;
+    padding-top:80px;
+    padding-left: 10px;
+    position: relative;
+    transform: translateX(20px);
+    
+}
+
+#color-menu{
+    height: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.colorBox{
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+    background-color:chocolate;
+    display: inline-block;
+}
+
+#time-btn
+{
+    height:35px ;
+    width: 100px;
+    padding: 10px 25px;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    width: auto;
+    border-radius: 5px;
+    background-color:aliceblue;
+}
+
+#hearBeat-btn{
+    font-weight: 600;
+    height:35px ;
+    width: 100px;
+    padding: 10px 25px;
+    text-align: center;
+    border: none;
+    margin-left: 20px;
+    /* transform: translateX(20px); */
+    width: auto;
+    border-radius: 5px;
+    background-color:aliceblue;
+    
+}
+
+#buy-btn{
+    height:40px ;
+    width: 100px;
+    padding: 10px 25px;
+    text-align: center;
+    font-weight: 600;
+    width: auto;
+    border-radius: 5px;
+    border: none;
+    background-color:gold;
+
+}
+
+#color-section{
+    width: auto;
+    height: 100px;
+    /* background-color: bisque; */
+}
+
+#color-1{
+    background-color: #ca3d22;
+}
+#color-2{
+    background-color: #565681;
+}
+#color-3{
+    background-color: #23211f;
+}
+#color-4{
+    background-color: #8a5362;
+}
+#color-5{
+    background-color: #e9c7be;
+}
+
+#watchDetails-div{
+    width: 500px;
+}
+
+#mainTitle{
+    font-size: 35px;
+}
+
+#time{
+   transform: translate(140px,-240px);
+   color:white;
+   font-size: 25px;
+}
+
+#hearRate{
+    transform: translate(185px,-250px);
+   color:white;
+   font-size: 25px;
+
+}
+
+
+.hide{
+
+    display: none;
+    
+}
+
+.show{
+    display: show;
+}
+
+#buy-btn:hover{  
+    transform: scale(1.1);
+}
+
+#time-btn:hover
+{
+  transform: scale(1.1);
+}
+
+#hearBeat-btn:hover
+{
+    transform: scale(1.1);
+}

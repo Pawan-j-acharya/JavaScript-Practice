@@ -4,16 +4,6 @@ var bookCount=0;
 
 let totalAmount=0;
 
-var helloEle=document.getElementsByClassName('.hello');
-
-function sayingHello(event){
-    alert("hello");
-}
-
-
-helloEle.addEventListener('click',sayingHello);
-
-
 
 
 //book 1 cart button scriptscode
@@ -75,9 +65,6 @@ function addToCart(childrens){
 
         newDivElement.id = 'bookInfoWrapper';
 
-        bookCount++;
-        
-
 
 
         var bookInfoElement=document.createElement('div');
@@ -85,10 +72,6 @@ function addToCart(childrens){
         bookInfoElement.id = 'cart-book-info';
 
         var InfoTextNode=document.createTextNode(childrens[0].innerHTML+","+childrens[1].innerHTML);
-
-        let boodId = 'book'+bookCount+
-
-        sessionStorage.setItem("'book'+bookCount+')
 
         bookInfoElement.appendChild(InfoTextNode);
 
@@ -114,11 +97,12 @@ function addToCart(childrens){
 
 
 
-        // bookCount++;
+        bookCount++;
         let priceString=childrens[2].innerHTML;
         totalAmount+=parseInt(priceString.slice(3));
 
-        
+        console.log(bookCount);
+        console.log(totalAmount);
 
     
 
@@ -137,3 +121,4 @@ function addToCart(childrens){
 
 
 
+ 
