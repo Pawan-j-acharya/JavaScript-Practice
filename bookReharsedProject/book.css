@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 1000PX;
+}
+
+#menu-card-wrapper{
+
+    margin-top: 60px;
+    /* background-color: lightcoral; */
+
+}
+
+#menu-card{
+    height: 300px;;
+    width: 230px;
+    /* background-color: lightblue; */
+    display: inline-block;
+    margin-left: 50px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 5px 5px 2px black;   
+}
+
+#menu-img{
+    margin-left: 60px;
+    height: 200px;
+    width: 100px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#menu-info{
+    text-align: center;
+}
+
+#cart-wrapper{
+
+    height: 500PX;
+    width: 510px;
+    margin: auto;
+    margin-top: 50PX;
+    /* background-color: aqua; */
+    box-shadow: rgba(0,0,0,3.5)0px 5px 15px;
+    position: relative;
+    
+}
+
+#bookInfoWrapper{
+    width: 510px;
+    height: 80px;
+    padding-left: 5px;
+    padding-top: 15px;
+    /* background-color: lightcoral; */
+    
+}
+
+#cart-book-info{
+    width:400px ;
+    height:50px;
+    /* background-color: lightgreen; */
+    display: inline-block;
+    padding-top: 15px;
+    border: 1px solid black;
+}
+
+ #cart-book-price{
+    width: 100px;
+    height: 50px ;
+    /* background-color:blanchedalmond; */
+    display: inline-block;
+    padding-top: 15px;
+    border: 1px solid black;
+
+
+ }
+
+
+ .bookBillElement{
+    /* background-color: aqua; */
+    position: absolute;
+    width: 510px;
+    height: 100px;
+    border-top: 2px solid black;
+    bottom: 0;
+   
+
+ }
+
+ .billElement-h2{
+    display: inline-block;
+ }
+
+ .bookCount{
+    padding-top: 8px;
+    height: 50px;
+    position: relative;
+    border-bottom: 1px dotted black;
+ }
+ .side-element{
+    width: 100px;
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    background-color: white;
+    border: none;
+    padding-top: 8px;
+    font-size: larger;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+ }
+ 
