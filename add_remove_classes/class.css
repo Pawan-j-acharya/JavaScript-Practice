@@ -1,0 +1,63 @@
+#container{
+
+    height: 100vh;
+    width: auto;
+    background-color:aqua;
+    top: 0;
+    left:0;
+
+    /* display: grid;
+    place-items: center; */
+    
+    /* display: flex;
+    justify-content: center;
+   // align-items: center; */
+
+}
+
+#buttonEle{
+
+   font-size: medium;
+}
+
+
+.h1text{
+
+    top: 45%;
+    left: 40%;
+    font-size: 12px;
+    align-self: center;
+
+}
+
+.bigFont{
+     font-size: 50px;
+}
+
+.smallFont{
+    font-size: 10px;
+}
+
+#sidebar{
+    background-color: aliceblue;
+    height: 700px;
+    width: 150px;
+    top: 0;
+    left: 0;
+  
+}
+
+#menubtn{
+
+    top:100px;
+    left: 100px;
+}
+
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}

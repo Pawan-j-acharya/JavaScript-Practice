@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+  background-image: url("/CalculatorWebsite/calculatotBG-img.jpg");
+  height: 500px;
+  width: 100%;
+  position: fixed;
+  margin-top:0;
+  margin-right: 0;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+  box-sizing: border-box;
+  padding-top: 80px;
+    
+}
+
+#calculator-wrapper{
+    height: 400px;
+    width: 315px;
+    background-color: lightcoral;
+   
+
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0px;
+
+}
+
+#display{
+    height: 120px;
+    width: 100%;
+    background-color: white;
+}
+
+
+button{
+    height: 70px;
+    width: 75px;
+    
+    border:1px solid black ;
+    display: inline-block;
+    text-align: center;
+    padding-top:25px;
+    font-weight: 800;
+}

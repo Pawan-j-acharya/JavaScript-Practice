@@ -1,0 +1,21 @@
+#container{
+
+    height: 100vh;
+    width: auto;
+    background-color: aqua;
+
+    /* display: grid;
+    place-items: center; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+#buttonEle{
+
+   font-size: medium;
+}
