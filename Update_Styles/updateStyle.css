@@ -1,0 +1,26 @@
+
+h1{
+     position: absolute;
+     font-size: 1000px;
+     color:black;
+     top:0%;
+     left:40%;
+     text-align: center;
+   
+    
+
+}
+
+img{
+    height: auto;
+    width: 100%;
+}
+
+
+img_container{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
