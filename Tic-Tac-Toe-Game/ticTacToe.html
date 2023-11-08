@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Tic-Tac-Toe-Game/ticTacToe.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="gameDetails">
+
+        <h1>TIC-TAC-TOE GAME</h1>
+        <h3>Game starts by just tap on box</h3>
+        <p>First Player starts as PLAYER X and Second player as PLAYER O</p>
+
+    </div>
+
+    <div id="gridContainer">
+        <div  class="gridItem"  data-click=true onclick="appendUserMark(event)"></div>
+        <div  class="gridItem" onclick="appendUserMark(event)"></div>
+        <div  class="gridItem" onclick="appendUserMark(event)"></div>
+        <div  class="gridItem" onclick="appendUserMark(event)"></div>
+        <div  class="gridItem" onclick="appendUserMark(event)"></div>
+        <div  class="gridItem" onclick="appendUserMark(event)"></div>
+        <div  class="gridItem" onclick="appendUserMark(event)"></div>
+        <div class="gridItem" onclick="appendUserMark(event)"></div>
+        <div  class="gridItem" onclick="appendUserMark(event)"></div>
+
+    </div>
+
+    <button id="resetBtn" onclick="resetGame()">RESET</button>
+
+    <h2 id="currPlayer">Player X turn</h2> 
+
+
+    
+    
+    <script src="/Tic-Tac-Toe-Game/ticTacToe.js" type="text/javascript"></script>
+
+</body>
+</html>
