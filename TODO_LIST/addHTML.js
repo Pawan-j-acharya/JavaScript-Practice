@@ -1,13 +1,12 @@
-
-var todoList=document.getElementById('todo-list')
+var input=document.getElementById('todoInput')
 
 var addBtn=document.getElementById('addBtn');
-
-var input=document.getElementById('todoInput')
 
 var updateBtn=document.getElementById('updateBtn');
 
 var removeBtn=document.getElementById('removeBtn');
+
+var todoList=document.getElementById('todo-list')
 
 //var firstItem=document.getElementById('firstItem')
 

@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bookCard{
+    height: 22em;
+    width: 16em;
+    margin-top: 8em;
+    padding: 1em;
+    /* background-color: lightcoral; */
+    text-align: center;
+    box-shadow: rgba(0,0,0,3.5)0px 5px 15px;
+    
+    
+}
+
+img{
+    height: 10em;
+    width: 8em;
+    display: inline;
+   
+    
+}

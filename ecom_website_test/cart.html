@@ -1,0 +1,24 @@
+<!-- cart.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart</title>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <div id="cart-items">
+        <!-- Cart items will be displayed here -->
+    </div>
+
+    <script>
+        const cartItemsContainer = document.getElementById('cart-items');
+
+        const cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+        cart.forEach(product => {
+            const itemDiv = document.createElement('div');
+            itemDiv.innerHTML = `<p>${product.name} - $${product.price.toFixed(2)}</p>`;
+            cartItemsContainer.appendChild(itemDiv);
+        });
+    </script>
+</body>
+</html>

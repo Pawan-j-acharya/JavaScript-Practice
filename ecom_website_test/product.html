@@ -1,0 +1,40 @@
+<!-- product.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Listing</title>
+</head>
+<body>
+    <div id="products">
+        <div class="product">
+            <h2>Product 1</h2>
+            <p>Price: $10.00</p>
+            <button class="add-to-cart" data-name="Product 1" data-price="10.00">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h2>Product 2</h2>
+            <p>Price: $15.00</p>
+            <button class="add-to-cart" data-name="Product 2" data-price="15.00">Add to Cart</button>
+        </div>
+        <!-- Add more products here -->
+    </div>
+
+    <script>
+        const addToCartButtons = document.querySelectorAll('.add-to-cart');
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', addToCart);
+        });
+
+        function addToCart(event) {
+            const product = {
+                name: event.target.getAttribute('data-name'),
+                price: parseFloat(event.target.getAttribute('data-price')),
+            };
+
+            let cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+            cart.push(product);
+            sessionStorage.setItem('cart', JSON.stringify(cart));
+        }
+    </script>
+</body>
+</html>
