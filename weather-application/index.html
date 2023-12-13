@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/weather-application/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/30bee44e15.js" crossorigin="anonymous"></script>
+    <title>Weather Forcast Application</title>
+</head>
+<body>
+    <div id="weather-card">
+
+        <div id="search-container">
+            <input type="text" id="location" class="search-bar" name="location" placeholder="     search">
+            <button id="button" onclick="getWeatherInfo()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div id="weather-icon-container">
+
+            <img src="/weather-application/images/Sunny.png">
+
+        </div>
+
+        <div id="weather-temp-container">
+            <h1 id="temp-meter">22&deg;C</h1>
+            <br>
+            <h2 id="location-meter">New York</h2>
+
+        </div>
+
+
+        
+
+        <div id="weather-extraInfo-container">
+
+            <div id="weather-ExtraInfo1" >
+                <div class="smallContainers-icon" >
+                    <i class="fa-solid fa-water"></i>
+                </div>
+                <div class="smallContainers">
+                    <p id="humidity-meter">64%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div id="weather-ExtraInfo2" >
+                <div class="smallContainers-icon">
+                    <i class="fa-solid fa-wind"></i>
+                </div>
+                <div class="smallContainers">
+                    <p id="windSpeed-meter">18 km/h</p>
+                    <p style="bottom: 10px;">Wind Speed</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        
+
+
+
+
+    </div>
+    
+    
+    <script src="/weather-application/script.js" type="text/javascript"></script>
+</body>
+</html>
